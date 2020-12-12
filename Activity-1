@@ -2,43 +2,42 @@ print ("1.fever")
 print ("2.cold")
 print ("3.stomachpain")
 print ("4.legpain")
-
-Choice = input("enter the choice :")
+choice = input("enter the choice :")
 if choice == '1':
-    Print("1.medium")
-    Print("2.high")
+    print("1.medium")
+    print("2.high")
     choice = input("enter the mode :")
     if choice == '1':
-        Choice = input(" enter the no of tablets u want :")
+        choice = input(" enter the no of tablets u want :")
         print("take paracetamol  tablets")
     else:
-        Print("consult the doctor nearby atm")
+        print("consult the doctor nearby atm")
 if choice == '2':
-    Print("1.Medium")
-    Print("2.high")
-    Choice = input("enter the mode:")
+    print("1.Medium")
+    print("2.high")
+    choice = input("enter the mode:")
     if choice == '1':
-        Choice = input("enter the no of tablets u want :")
-        Print("take crocin tablets")
+        choice = input("enter the no of tablets u want :")
+        print("take crocin tablets")
     else:
-        Print("consult the doctor nearby atm")
+        print("consult the doctor nearby atm")
 if choice == '3':
-    Print("1.Medium")
-    Print("2.high")
-    Choice = input("enter the mode:")
+    print("1.Medium")
+    print("2.high")
+    choice = input("enter the mode:")
     if choice == '1':
-        Choice = input("enter the no of tablets u want :")
-        Print("take Pantoprazole tablets")
+        choice = input("enter the no of tablets u want :")
+        print("take Pantoprazole tablets")
     else:
-        Print("consult the doctor nearby  atm")
+        print("consult the doctor nearby  atm")
 if choice == '4':
-    Print("1.Medium")
-    Print("2.high")
-    Choice = input("enter the mode:")
+    print("1.Medium")
+    print("2.high")
+    choice = input("enter the mode:")
     if choice == '1':
-        Choice = input("enter the no of tablets u want :")
-        Print("take Advin tablets")
+        choice = input("enter the no of tablets u want :")
+        print("take Advin tablets")
     else:
         Print("consult the doctor nearby  atm ")
 else:
-    print(invalid)
+        print(invalid)
