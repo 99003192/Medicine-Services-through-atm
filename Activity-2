@@ -1,0 +1,66 @@
+class fever():
+    def fever(self):
+        print("1 medium")
+        print("2 high")
+        self.choice = input("enter the mode:")
+        if(self.choice == '1'):
+            print("take paracetamol tablets")
+            self.choice1 = input("enter the no. of tablets u want:")
+        else:
+            print("consult the doctor near by atm")
+
+
+class cold(fever):
+    def cold(self):
+        print("1 medium")
+        print("2 high")
+        self.choice = input("enter the mode:")
+        if(self.choice == '1'):
+            print("take crocin tablets")
+            self.choice1 = input("enter the no. of tablets u want:")
+        else:
+            print("consult the doctor near by atm")
+
+
+class stomachpain(cold):
+    def stomachpain(self):
+        print("1 medium")
+        print("2 high")
+        self.choice = input("enter the mode:")
+        if(self.choice == '1'):
+            print("take Pantoprazole tablets")
+            self.choice1 = input("enter the no. of tablets u want:")
+
+        else:
+            print("consult the doctor near by atm")
+
+
+class legpain(stomachpain):
+    def legpain(self):
+        print("1 medium")
+        print("2 high")
+        self.choice = input("enter the mode:")
+        if(self.choice == '1'):
+            print("take Advin tablets")
+            self.choice1 = input("enter the no. of tablets u want:")
+
+        else:
+            print("consult the doctor near by atm")
+print("Welcome to our application")
+print("1.fever")
+print("2.cold")
+print("3.stomachpain")
+print("4.legpain")
+obj = legpain()
+ch = input("enter the choice")
+if(ch == '1'):
+    obj.fever()
+elif(ch == '2'):
+    obj.cold()
+elif(ch == '3'):
+    obj.stomachpain()
+elif(ch == '4'):
+    obj.legpain()
+else:
+    print("Invalid")
+print("Thanks for using our application\n       visit again")
