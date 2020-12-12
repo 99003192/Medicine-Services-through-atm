@@ -1,0 +1,44 @@
+print ("1.fever")
+print ("2.cold")
+print ("3.stomachpain")
+print ("4.legpain")
+
+Choice = input("enter the choice :")
+If choice == '1':
+    Print("1.medium")
+    Print("2.high")
+    choice = input("enter the mode :")
+    If choice == '1':
+        Choice = input(" enter the no of tablets u want :")
+        print("take paracetamol  tablets")
+    else:
+        Print("consult the doctor nearby atm")
+If choice == '2':
+    Print("1.Medium")
+    Print("2.high")
+    Choice = input("enter the mode:")
+    If choice == '1':
+        Choice = input("enter the no of tablets u want :")
+        Print("take crocin tablets")
+    else:
+        Print("consult the doctor nearby atm")
+If choice == '3':
+    Print("1.Medium")
+    Print("2.high")
+    Choice = input("enter the mode:")
+    If choice == '1':
+        Choice = input("enter the no of tablets u want :")
+        Print("take Pantoprazole tablets")
+    else:
+        Print("consult the doctor nearby  atm")
+If choice == '4':
+    Print("1.Medium")
+    Print("2.high")
+    Choice = input("enter the mode:")
+    If choice == '1':
+        Choice = input("enter the no of tablets u want :")
+        Print("take Advin tablets")
+    else:
+        Print("consult the doctor nearby  atm ")
+else:
+    print(invalid)
